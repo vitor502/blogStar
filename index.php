@@ -52,12 +52,47 @@
         </nav>
             </header>
         </div>
-
-    <div class="d-flex justify-content-center">
-      <img width="70%" height="20%" src="https://i2.wp.com/s-media-cache-ak0.pinimg.com/originals/4e/85/b0/4e85b0db3e3cf45139fbfbe6847b8ff6.gif" alt="millennium falcon gif">
+<!-- Inicio do carrosel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img width="100%" height="30%" src="IMG/atat em hoth.jpg" class="d-block" alt="ATAT no planeta Hoth">
     </div>
+    <div class="carousel-item">
+      <img width="100%" height="30%" src="IMG/destroier destruido.jpg" class="d-block" alt="destroierEP7">
+    </div>
+    <div class="carousel-item">
+      <img width="100%" height="30%" src="IMG/jedo figth.jpg" class="d-block" alt="jedi vs monstro">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+        </div>
+<!-- Fim do carrosel -->
 
+    <!-- Posts em destaques -->
+<div class="card" style="width: 18rem;">
+  <img src="IMG/santaseiawars.jpg" class="card-img-top" alt="Feriados e comemorações em SW">
+  <div class="card-body">
+    <p class="card-text">A Estrela da Morte não é apenas um símbolo do Império, mas como um dos elementos mais importantes de Star Wars.</p>
+  </div>
+</div>
+    
     </body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
 <script src="https://i2.wp.com/s-media-cache-ak0.pinimg.com/originals/4e/85/b0/4e85b0db3e3cf45139fbfbe6847b8ff6.gif" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </html>
 
