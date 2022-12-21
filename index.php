@@ -119,3 +119,5 @@
     </div>
   </div>
 </nav> -->
+
+<!-- falta acrecentar mais posts, footer e um side bar -->
