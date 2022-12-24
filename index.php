@@ -81,14 +81,46 @@
         </div>
 <!-- Fim do carrosel -->
 
-    <!-- Posts em destaques -->
-<div class="card" style="width: 18rem;">
-  <img src="IMG/santaseiawars.jpg" class="card-img-top" alt="Feriados e comemorações em SW">
-  <div class="card-body">
-    <p class="card-text">A Estrela da Morte não é apenas um símbolo do Império, mas como um dos elementos mais importantes de Star Wars.</p>
+  <!-- destaques -->
+  <div class="bg-secondary text-warning text-center mt-1">
+    <h2>Destaques</h2>
   </div>
-</div>
+    <!-- Posts em destaques -->
+  <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <span class="border">
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/santaseiawars.jpg" class="card-img-top" alt="Feriados e comemorações em SW">
+        <div class="card-body">
+          <p class="card-text">A Estrela da Morte não é <br> apenas um símbolo do <br> Império, mas como um <br> dos elementos mais importantes de Star Wars.</p>
+        </div>
+      </div></span>
+    </div>
+
+    <div class="col">
+      <span class="border">
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/santaseiawars.jpg" class="card-img-top" alt="Feriados e comemorações em SW">
+        <div class="card-body">
+          <p class="card-text">A Estrela da Morte não é apenas um símbolo do Império, mas como um dos elementos mais importantes de Star Wars.</p>
+        </div>
+      </div></span>
+      </div>
     
+    <div class="col">
+      <span class="border">
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/santaseiawars.jpg" class="card-img-top" alt="Feriados e comemorações em SW">
+        <div class="card-body">
+          <p class="card-text">A Estrela da Morte não é apenas um símbolo do Império, mas como um dos elementos mais importantes de Star Wars.</p>
+        </div>
+      </div></span>
+      
+    </div>
+  </div>
+  </div>
+
     </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
