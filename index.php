@@ -85,7 +85,7 @@
 <!-- Meio do site -->
 <!-- destaques -->
   <div class="bg-secondary text-warning text-center mt-1">
-    <h2>Destaques</h2>
+    <h2><em>Destaques</em></h2>
   </div>
 <!-- Posts em destaques -->
   <div class="container text-center">
@@ -103,9 +103,9 @@
     <div class="col">
       <span class="border">
       <div class="card" style="width: 18rem;">
-        <img src="IMG/santaseiawars.jpg" class="card-img-top" alt="Feriados e comemorações em SW">
+        <img src="IMG/caçavader.jpg" class="card-img-top" alt="Vader com caçadores de recompensa">
         <div class="card-body">
-          <p class="card-text">A Estrela da Morte não é apenas um símbolo do Império, mas como um dos elementos mais importantes de Star Wars.</p>
+          <p class="card-text">Na Era do Império Galáctico, muitos caçadores de recompensas eram afiliados com a Guilda dos Caçadores de Recompensas.</p>
         </div>
       </div></span>
       </div>
@@ -125,7 +125,7 @@
 
 <!-- conteudo -->
   <div class="bg-secondary text-warning text-center mt-1">
-    <h2>Conteudo</h2>
+    <h2><em>Conteudo</em></h2>
   </div>
 
 <!-- conteudo comum -->
@@ -169,39 +169,30 @@
   <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
     <div class="container p-4">
-      <!-- Section: Social media -->
+      <!-- Section: Midias Sociais -->
       <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
 
         <!-- Twitter -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
+          >Twitter<i class="fab fa-twitter"></i
         ></a>
 
         <!-- Instagram -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
+          >Instagram<i class="fab fa-instagram"></i
         ></a>
 
         <!-- Linkedin -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
+          >Linkedin<i class="fab fa-linkedin-in"></i
         ></a>
 
         <!-- Github -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
+          >Github<i class="fab fa-github"></i
         ></a>
       </section>
-      <!-- Section: Social media -->
+      <!-- Section: Midias Sociais -->
 
       <!-- Section: Form -->
       <section class="">
@@ -211,7 +202,7 @@
             <!--Grid column-->
             <div class="col-auto">
               <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
+                <strong>Se inscreva</strong>
               </p>
             </div>
             <!--Grid column-->
@@ -221,7 +212,7 @@
               <!-- Email input -->
               <div class="form-outline form-white mb-4">
                 <input type="email" id="form5Example21" class="form-control" />
-                <label class="form-label" for="form5Example21">Email address</label>
+                <label class="form-label" for="form5Example21">Adicione seu E-mail</label>
               </div>
             </div>
             <!--Grid column-->
@@ -230,7 +221,7 @@
             <div class="col-auto">
               <!-- Submit button -->
               <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
+                Inscreva-se
               </button>
             </div>
             <!--Grid column-->
@@ -243,9 +234,8 @@
       <!-- Section: Text -->
       <section class="mb-4">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-          eum harum corrupti dicta, aliquam sequi voluptate quas.
+          A capacidade de falar não torna você inteligente. <br>
+          Acesse minhas redes para ajudalo, que a força esteja com você.
         </p>
       </section>
       <!-- Section: Text -->
@@ -265,12 +255,6 @@
               <li>
                 <a href="#!" class="text-white">Link 2</a>
               </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
             </ul>
           </div>
           <!--Grid column-->
@@ -287,11 +271,6 @@
                 <a href="#!" class="text-white">Link 2</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
             </ul>
           </div>
           <!--Grid column-->
@@ -307,12 +286,6 @@
               <li>
                 <a href="#!" class="text-white">Link 2</a>
               </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
             </ul>
           </div>
           <!--Grid column-->
@@ -327,12 +300,6 @@
               </li>
               <li>
                 <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
               </li>
             </ul>
           </div>
@@ -347,7 +314,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      <a class="text-white" href="http://localhost/blogStar/index.php">SociedadeJedi.com</a>
     </div>
     <!-- Copyright -->
   </footer>
