@@ -8,12 +8,12 @@
     <link rel="icon" type="image/x-icon" href="IMG/DSIcon.png">
     <title>Sociedade Jedi</title>
 </head>
-<!-- container do topo -->
-    <body class="body">
-        
+
+<body class="body">
+<!-- container do topo -->       
         <div class="container">
             <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
 <!-- Logo Tipo -->
         <img width="30%" src="IMG/SocJediLogo.png" alt="LogoTipo">
@@ -301,7 +301,7 @@
   </footer>
 
 
-    </body>
+</body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 
