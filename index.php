@@ -29,7 +29,7 @@
 
             <li class="nav-item dropdown">
             <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Topicos
+                Tópicos
             </a>
             <ul class="dropdown-menu bg-secondary">
                 <li><a class="dropdown-item" href="#">Imperio</a></li>
@@ -55,37 +55,18 @@
             </header>
         </div>
 <!-- Inicio do carrosel -->
-        <div class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img width="100%" height="30%" src="IMG/atat em hoth.jpg" class="d-block" alt="ATAT no planeta Hoth">
-    </div>
-    <div class="carousel-item">
-      <img width="100%" height="30%" src="IMG/destroier destruido.jpg" class="d-block" alt="destroierEP7">
-    </div>
-    <div class="carousel-item">
-      <img width="100%" height="30%" src="IMG/jedo figth.jpg" class="d-block" alt="jedi vs monstro">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img width="90%" class="d-block mx-auto" src="IMG/atat em hoth.jpg" alt="First slide">
+      </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-        </div>
-<!-- Fim do carrosel -->
+  <!-- Fim do carrosel -->
 <!-- Meio do site -->
 <!-- destaques -->
-  <div class="bg-secondary text-warning text-center mt-1">
-    <h2><em>Destaques</em></h2>
+  <div class="text-warning text-center mt-1 p-2 mx-auto">
+    <h2><em>- Destaques -</em></h2>
   </div>
 <!-- Posts em destaques -->
   <div class="container text-center">
@@ -124,8 +105,8 @@
   </div>
 
 <!-- conteudo -->
-  <div class="bg-secondary text-warning text-center mt-1">
-    <h2><em>Conteudo</em></h2>
+  <div class="text-warning text-center mt-1 p-2 mx-auto">
+    <h2><em>- Conteúdo -</em></h2>
   </div>
 
 <!-- conteudo comum -->
@@ -326,27 +307,3 @@
 
 <script src="https://i2.wp.com/s-media-cache-ak0.pinimg.com/originals/4e/85/b0/4e85b0db3e3cf45139fbfbe6847b8ff6.gif" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </html>
-
-                                                <!-- dropdonw-alternativo -->
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
