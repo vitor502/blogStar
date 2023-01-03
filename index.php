@@ -31,12 +31,12 @@
             <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Tópicos
             </a>
-            <ul class="dropdown-menu bg-secondary">
-                <li><a class="dropdown-item" href="#">Imperio</a></li>
-                <li><a class="dropdown-item" href="#">Mandalore</a></li>
-                <li><a class="dropdown-item" href="#">Republica</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Filmes</a></li>
+            <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item bg-dark" href="#">Imperio</a></li>
+                <li><a class="dropdown-item bg-dark" href="#">Mandalore</a></li>
+                <li><a class="dropdown-item bg-dark" href="#">Republica</a></li>
+                <li><hr class="dropdown-divider bg-dark"></li>
+                <li><a class="dropdown-item bg-dark" href="#">Filmes</a></li>
             </ul>
             </li>
 

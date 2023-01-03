@@ -22,8 +22,5 @@ a:hover{
 }
 
 @media screen and (min-width: 460px){
-    img#logo{
-        width: 100%;
-        height: 100%;
-    }
+    
 }
