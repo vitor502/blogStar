@@ -41,7 +41,7 @@
             </li>
 
             <li class="nav-item">
-            <a class="nav-link text-light disabled">Disabled</a>
+            <a class="nav-link text-light" href="Login.php">Cadastre-se</a>
             </li>
         </ul>
 <!-- Barra de pesquisa -->

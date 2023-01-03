@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #161b24;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.inputBox{
+    position: relative;
+    width: 250px;
+}
+
+.inputBox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(50, 62, 85);
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.inputBox span{
+    position: relative;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    color: #4fed;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+h1{
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6,
+    0 0 30px #0073e6, 0 0 35px #0073e6 ;
+}
+
+h2{
+    position: relative;
+    font-size: 3rem;
+    font-family: sans-serif;
+    -webkit-text-stroke: 0.3vh #383d52;
+    text-transform: uppercase;
+}
+
+h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #4fed;
+    -webkit-text-stroke: 0vh #383d52;
+    border-right: 2px solid #4fed;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+    -webkit-animation: animate 6s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+}
+
+
+.buttonClass {
+    font-size:25px;
+    font-family:Arial;
+    text-align: center;
+    width:200px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#599bb3;
+    font-weight:bold;
+    border-top-left-radius:16px;
+    border-top-right-radius:16px;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    text-shadow: 0px 1px 0px #3d768a;
+    background:linear-gradient(#599bb3, #408c99);
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(#408c99, #599bb3);
+  }
+                       
+/* animated lightSaber */
+
+    .container{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .lightsaber{
+        width: 17px;
+        height: 500px;
+        border-radius: 30px;
+        background-color: #000;
+        box-shadow: 0px 0px 1px 0.3px #919191;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 45px;
+        animation: saber 1.5s ease-in forwards;
+    }
+    
+    .lightsaber--pink{
+        animation: sabersecond 1.5s ease-in forwards;
+    }
+    
+    .lightsaber_light{
+        width: 100%;
+        height: 80%;
+        background-color: #e7f9ff;
+        border-radius: 30px 30px 20px 20px;
+        box-shadow: 0 0 5px #fff, 0 0 6px #fff, 0 0 8px 1px #00c4ff;
+    }
+    
+    .lightsaber_button{
+        width: 8px;
+        height: 8px;
+        border-radius: 20px;
+        background-color: #b52727;
+        border: 1px solid #fff;
+    }
+    
+    .lightsaber--pink .lightsaber_light{
+        background-color: #fff4fe;
+        box-shadow: 0 0 5px #fff, 0 0 6px #fff, 0 0 8px 1px #d80e0e;
+    }
+    
+    @keyframes saber{
+        20%{
+            transform: rotate(-30deg)
+            translate(-20px,-30px);
+        }
+        100%{
+            transform: rotate(140deg)
+            translate(-60px,-72px);
+        }
+    }
+    
+    @keyframes sabersecond{
+        20%{
+            transform: rotate(-30deg)
+            translate(-20px,-30px);
+        }
+        100%{
+            transform: rotate(-140deg)
+            translate(60px,-72px);
+        }
+    }
+/* fim */
