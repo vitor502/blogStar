@@ -9,9 +9,7 @@
 </head>
 <body>
 
-<img width="60%" src="IMG/SocJediLogo.png" alt="LogoTipo">
-
-    <h1>junte-se a ordem</h1>
+<img width="50%" src="IMG/SocJediLogo.png" alt="LogoTipo">
 
     <h2 data-text="Cadastre">Cadastre</h2>
 

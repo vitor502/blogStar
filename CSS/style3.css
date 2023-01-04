@@ -1,0 +1,65 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+
+}
+/* variaveis */
+:root{
+    --container-color: #1a1e21;
+    --second-color: #fd8f44;
+    --text-color: #172317;
+    --bg-color: #fff;
+}
+
+::selection{
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 3rem 0 2rem;
+}
+
+.container{
+    max-width: 168px;
+    margin: auto;
+    width: 100%;
+}
+
+/* Header */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+/* 09:24 min 
+    https://www.youtube.com/watch?v=gZHjMVE_e10*/
