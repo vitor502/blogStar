@@ -151,7 +151,7 @@ header.shadow .logo{
 
 .post{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(280px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     justify-content: center;
     gap: 1.5rem;
 }
@@ -419,6 +419,3 @@ header.shadow .logo{
         margin: 10px 0;
     }
 }
-
-
-
