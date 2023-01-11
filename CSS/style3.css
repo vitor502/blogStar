@@ -252,7 +252,6 @@ header.shadow .logo{
 }
 
 /* Post Content */
-
 .post-header{
     width: 100%;
     height: 500px;
@@ -319,7 +318,6 @@ header.shadow .logo{
 }
 
 /* Responsive */
-
 @media (max-width:1060px){
     .container{
         margin: 0 auto;
@@ -419,3 +417,4 @@ header.shadow .logo{
         margin: 10px 0;
     }
 }
+/* .... - - .--. ... ---... -..-. -..-. --. .. - .... ..- -... .-.-.- -.-. --- -- -..-. ...- .. - --- .-. ..... ----- ..--- */
