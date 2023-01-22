@@ -151,7 +151,7 @@ header.shadow .logo{
 
 .post{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
     justify-content: center;
     gap: 1.5rem;
 }
@@ -159,7 +159,7 @@ header.shadow .logo{
 .post-box{
     background: var(--bg-color);
     box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
-    padding: 15px;
+    padding: 60px;
     border-radius: 0.5rem;
 }
 
