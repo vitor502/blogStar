@@ -259,9 +259,12 @@ header.shadow .logo{
 }
 
 .post-container{
-    max-width: 800px;
+    max-width: 3000px;
     margin: auto;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .header-content{
